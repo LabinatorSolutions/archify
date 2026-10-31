@@ -60,8 +60,8 @@ https://github.com/user-attachments/assets/88cff7dd-bdf3-4b97-950c-37cc079898b1
 
 支持 Cursor、Claude Code、Codex CLI 和 OpenCode；更多接入方式见下方安装选项。
 
-```bash
-npx skills add tt-a1i/archify -g
+```text
+Install Archify for me by reading https://raw.githubusercontent.com/tt-a1i/archify/main/llms.txt
 ```
 
 把这句话发给你的 Agent：
@@ -214,8 +214,8 @@ Export 菜单支持复制 PNG，并下载静态或动态格式：
 
 ### 1. 安装
 
-```bash
-npx skills add tt-a1i/archify -g
+```text
+Install Archify for me by reading https://raw.githubusercontent.com/tt-a1i/archify/main/llms.txt
 ```
 
 <details>
@@ -224,7 +224,7 @@ npx skills add tt-a1i/archify -g
 显式、非交互地安装到 Cursor：
 
 ```bash
-npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy --yes
+npx -y skills@latest add https://archify.si --skill archify --agent cursor --global --copy --yes
 ```
 
 如果只想临时体验：
